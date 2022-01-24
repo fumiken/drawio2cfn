@@ -1,0 +1,14 @@
+VPC                   shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;
+Subnet                shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;
+ElasticBeanstalk      shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_elastic_beanstalk;
+None                  shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;
+SpotFleet             shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_spot_fleet;
+StepFunctionsWorkflow shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_step_functions_workflow;
+AutoScalingGroup      shape=mxgraph.aws4.groupCenter;grIcon=mxgraph.aws4.group_auto_scaling_group;
+EC2                   shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;
+EC2                   shape=mxgraph.aws4.instance;
+EC2                   shape=mxgraph.aws4.instance2;
+EC2                   shape=mxgraph.aws4.instances;
+SpotInstance          shape=mxgraph.aws4.spot_instance;
+Lambda                shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;
+Lambda                shape=mxgraph.aws4.lambda_function;
