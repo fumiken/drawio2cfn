@@ -1,3 +1,4 @@
-/input/*
-/output/*
-test.drawio
+/lib/__pycache__
+/input/*.drawio
+/output/*.json
+/output/*.yaml
