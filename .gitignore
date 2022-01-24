@@ -1,4 +1,5 @@
 /lib/__pycache__
-/input/*.drawio
-/output/*.json
-/output/*.yaml
+/input/*
+!/input
+/output/*
+!/output
