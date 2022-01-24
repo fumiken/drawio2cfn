@@ -58,6 +58,7 @@ def main(baseDir):
   # Run for each input file.
   INPUT_FILES = [f for f in os.listdir(INPUT_DIR) if os.path.isfile(os.path.join(INPUT_DIR, f))]
   for input_file in INPUT_FILES:
-    print("> Input file name: {}/{}".format(INPUT_DIR, input_file))
-    create_main(INPUT_DIR, input_file, OUTPUT_DIR, dict_list)
+    if input_file.endswith('.drawio'):
+      print("> Input file name: {}/{}".format(INPUT_DIR, input_file))
+      create_main(INPUT_DIR, input_file, OUTPUT_DIR, dict_list)
 
